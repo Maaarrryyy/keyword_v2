@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body class="min-h-screen w-full">
+   <header class="text-4xl text-center py-6 mb-24 font-bold font-sans tracking-tight text-zinc-700"
+   >Guess the Number</header>
+
+
+  <main class="flex flex-col mx-auto max-w-4xl px-4 py-4 justify-center items-center">
+   
+    <label for="input" class="text-3xl text-zinc-500 mb-8 font-medium">Try Now !</label>
+    <input id="input" class="border border-zinc-500 rounded-sm px-4 py-2" type="number">
+    
+    <button id="check-btn" class="bg-zinc-500 text-3xl text-white px-6 py-2 rounded-sm mt-12 cursor-pointer hover:bg-zinc-800">
+        Check
+    </button>
+
+    <span id="result" class="mt-4 text-xl font-bold"></span>
+
+   
+    <button id="reset-btn" class="hidden bg-blue-600 text-white px-6 py-2 rounded-sm mt-4 hover:bg-blue-800">
+        Play Again
+    </button>
+</main>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
